@@ -60,3 +60,10 @@ nav ul a:hover{
     text-decoration: overline solid;
     letter-spacing: 1px;
 }
+
+main{
+    padding-top: 40px;
+    font-size: 58px;
+    text-align: center;
+    
+}
