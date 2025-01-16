@@ -93,6 +93,7 @@ main{
         flex-direction: column;
         font-size: 18px;
         height: 200px;
+        padding: 0px;
     }
     header p{
         font-size: 20px;
@@ -103,7 +104,9 @@ main{
         height: 100px;
     }
     nav ul{
+        height: 100%;
+        flex-wrap: wrap;
         flex-direction: column;
-        align-content: space-between;
-}
+        align-content: space-around;
+    }
 }
