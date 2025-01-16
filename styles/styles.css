@@ -36,7 +36,6 @@ header{
     background-color: var(--scroll);
 }
 header p{
-    order: 2;
     letter-spacing: 10px;
     font-size: 62px;
 }
@@ -52,7 +51,7 @@ nav ul{
 }
 nav ul a{
     color: var(--font2);
-    text-decoration: overline dotted;
+    text-decoration: overline solid;
     text-align: center;
 }
 nav ul a:hover{
@@ -66,4 +65,21 @@ main{
     font-size: 58px;
     text-align: center;
     
+}
+
+@media (max-width: 720px){
+    header{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+        height: 100px;
+    }
+    header p{
+        font-size: 22px;
+    }
+    nav ul{
+        flex-direction: row;
+        gap: 120px;
+    }
 }
