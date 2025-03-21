@@ -23,14 +23,12 @@ main{
 .proy img{
     width: 300px;
 }
-.proy a{
-    text-decoration: none;
-}
+
 a{
     font-size: 16px;
     padding: 10px;
     color: var(--font2);
-    letter-spacing: 2px;
+
     text-decoration: overline dashed var(--font2);   
     transition: all 1s;
 }
@@ -38,6 +36,7 @@ a:hover{
     transition: all 1s;
     filter: brightness(0.7);
     text-decoration: overline solid var(--font2);
+    letter-spacing: 2px;
 }
 .caption{
     font-size: 22px;
