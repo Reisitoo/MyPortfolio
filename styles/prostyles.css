@@ -35,7 +35,7 @@ main{
     transition: all 1s;
 }
 .IR:hover{
-    transition: all;
+    transition: all 1s;
     filter: brightness(0.7);
     text-decoration: overline solid var(--font2);
 }
