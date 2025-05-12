@@ -179,6 +179,22 @@ footer {
   border-top: 1px solid #444;
   padding-top: 10px;
 }
+/* NECESARIO PARA SER IGUAL*/
+a{
+    font-size: 22px;
+    padding: 10px;
+    color: var(--font2);
+
+    text-decoration: overline dashed var(--font2);   
+    transition: all 1s;
+}
+a:hover{
+    transition: all 1s;
+    filter: brightness(0.7);
+    text-decoration: overline solid var(--font2);
+    letter-spacing: 2px;
+}
+/*--------------------------------*/
 
 @media (max-width: 768px) {
   .footer-container {
