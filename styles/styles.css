@@ -113,7 +113,7 @@ main{
 
 /*Footer de la página*/
 footer {
-  background-color: #333;
+  background-color: var(--scroll);
   color: #fff;
   padding: 20px 0;
   font-family: Arial, sans-serif;
@@ -150,13 +150,13 @@ footer {
 }
 
 .footer-section ul li a {
-  color: #fff;
+  color: var(--font2);
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .footer-section ul li a:hover {
-  color: #f4a261;
+  color: var(--font1);
 }
 
 .social-icons a {
