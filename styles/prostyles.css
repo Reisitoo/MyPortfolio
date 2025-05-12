@@ -11,7 +11,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    width: auto;
+    width: 550px;
     padding: 10px;
 }
 .proy{
