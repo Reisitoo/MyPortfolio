@@ -65,7 +65,7 @@ main{
     padding-top: 40px;
     font-size: 58px;
     text-align: center;
-    
+    padding: 10px;
 }
 
 @media (max-width: 720px){
