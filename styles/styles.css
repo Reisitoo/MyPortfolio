@@ -163,13 +163,12 @@ footer {
 
 .social-icons a {
   margin-right: 10px;
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
 }
 
 .social-icons img {
-  width: 17px;
-  height: 3%;
+  width: 24px;
+  height: 24px;
 }
 
 .footer-bottom {
