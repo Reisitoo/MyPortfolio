@@ -163,7 +163,7 @@ footer {
 
 .social-icons a {
   margin-right: 10px;
-  display: inline-block;
+  display: flex;
 }
 
 .social-icons img {
