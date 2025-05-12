@@ -61,6 +61,7 @@ nav ul a:hover{
 }
 
 main{
+    height: 550px;
     padding-top: 40px;
     font-size: 58px;
     text-align: center;
@@ -171,6 +172,7 @@ footer {
 }
 
 .footer-bottom {
+  color: var(--font2);
   text-align: center;
   margin-top: 20px;
   font-size: 14px;
