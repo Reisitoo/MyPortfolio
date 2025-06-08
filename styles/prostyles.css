@@ -60,6 +60,7 @@ a:hover{
         flex-wrap: wrap;
         height: 1000px;
         width: 100%;
+        margin-top: 10px
     }
 }
 @media (max-width: 360px){
@@ -76,7 +77,6 @@ a:hover{
         width: auto;
         height: auto;
         border: 3px double var(--scroll);
-        margin-top: 15px;
     }
     .proy img{
         width: 200px;
