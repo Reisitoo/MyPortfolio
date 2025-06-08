@@ -89,6 +89,8 @@ a:hover{
     }
 }
 
+
+
 /*Footer de la página*/
 footer {
   background-color: var(--scroll);
@@ -163,4 +165,9 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+}
+@media(max-width: 644px){
+    footer{
+        margin-top: 150px;
+    }
 }
