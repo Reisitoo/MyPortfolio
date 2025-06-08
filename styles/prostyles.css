@@ -11,8 +11,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    height: auto;
-    width: auto;
+    width: 100%
     padding: 10px;
     padding-top: 40px;
 }
