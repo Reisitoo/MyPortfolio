@@ -44,7 +44,7 @@ a:hover{
     font-size: 22px;
     color: var(--font1);
 }
-@media(max-width: 720px){
+@media(max-width: 1030px){
     main{
         flex-direction: column;
         height: 1000px;
