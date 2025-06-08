@@ -76,6 +76,7 @@ a:hover{
         width: auto;
         height: auto;
         border: 3px double var(--scroll);
+        margin-top: 15px;
     }
     .proy img{
         width: 200px;
