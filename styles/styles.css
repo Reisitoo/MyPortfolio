@@ -67,7 +67,10 @@ main{
     text-align: center;
     padding: 10px;
 }
-
+@media(max-width:1300px){
+    header p{
+        font-size: 22px;
+}
 @media (max-width: 720px){
     header{
         justify-content: space-around;
